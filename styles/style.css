@@ -8,15 +8,13 @@ body{
  display: flex;
  justify-content: space-between;
 }
-
-h2{
-  color: red;
-}
-.fas{
+.header-nav{
   padding: 20px;
 }
 .head-part{
+  color: red;
   font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
 }
 
 /* 1st section part */
@@ -33,11 +31,12 @@ h2{
   margin-top: 80px;
   border-left: 5px double red;
   line-height: 1;
+  padding-left: 10px;
 }
 .influ-sec{
   color: red;
 }
-p{
+.upper-para{
   font-family: 'Fugaz One', cursive;
   width: 500px;
   text-align: justify;
@@ -53,4 +52,55 @@ p{
 .img-sec{
   background-color: rgb(255, 189, 189);
   border-radius: 150px;
+}
+
+
+/* main section part */
+.main-part{
+  padding: 30px;
+}
+
+.main-sec{
+display: grid;
+grid-template-columns: repeat(3 , 1fr);
+
+}
+
+.mid-text{
+  font-size: 38px;
+  text-align: center;
+  color: rgb(0, 132, 255);
+  font-family: 'Archivo Black', sans-serif;
+}
+.main-head{
+  font-family: 'Vast Shadow', cursive;
+}
+ .ratings .fas{
+  color: rgb(255, 0, 0);
+}
+.mian-para{
+  font-weight: 700;
+  font-size: 22px;
+}
+.main-h3{
+  font-size: 15px;
+}
+.main-div{
+  background-color: rgb(180, 255, 251);
+  width: 300px;
+  height: 460px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 5px 5px slategray;
+}
+.main-last {
+  text-align: right;
+  padding: 20px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 16px;
+}
+a{
+  text-decoration: none;
+  color: red;
 }
