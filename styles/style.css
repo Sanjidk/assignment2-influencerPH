@@ -49,7 +49,19 @@ body {
   color: whitesmoke;
   padding: 12px;
   border-radius: 30px;
+  transition: background-color 3s ;
 }
+.top-div-sec:hover .top-button{
+  background-color: blue;
+}
+.top-div-button{
+  position: relative;
+  transition: transform 3s;
+}
+.top-div-sec:hover .top-div-button {
+  transform: translate(350px , 0px);
+}
+
 .top-img img{
   border-radius: 40px;
 }
@@ -116,7 +128,7 @@ footer {
 .foot-h2 {
   text-align: center;
   font-size: 35px;
-  color: rgb(253, 4, 4);
+  color: rgb(255, 3, 3);
   padding-top: 30px;
 }
 .foot-h5 {
