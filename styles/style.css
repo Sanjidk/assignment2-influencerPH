@@ -7,7 +7,7 @@ body {
 .header-nav {
   display: flex;
   justify-content: space-between;
-  padding:60px 60px 0px 60px;
+  padding: 60px 60px 0px 60px;
 }
 .header-icon {
   padding: 20px;
@@ -22,7 +22,7 @@ body {
 .top-sec {
   display: flex;
   justify-content: space-between;
-  padding:0px 60px 60px 60px;
+  padding: 0px 60px 60px 60px;
 }
 .top-head {
   font-size: 3em;
@@ -50,23 +50,24 @@ body {
   padding: 12px;
   border-radius: 30px;
 }
-.top-img {
-  background-color: rgb(255, 189, 189);
-  border-radius: 150px;
+.top-img img{
+  border-radius: 40px;
 }
 
 /* main section part */
+a {
+  text-decoration: none;
+  color: red;
+}
 .main-part {
   padding: 30px;
 }
-
 .main-sec {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0%;
   padding: 0px 100px 0px 100px;
 }
-
 .main-head {
   font-size: 40px;
   text-align: center;
@@ -74,7 +75,7 @@ body {
   font-family: "Archivo Black", sans-serif;
 }
 .main-text {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .ratings .fas {
   color: rgb(255, 0, 0);
@@ -95,31 +96,41 @@ body {
   margin-top: 20px;
   box-shadow: 5px 5px rgb(126, 96, 121);
 }
-.main-div img{
+.main-div img {
   width: 270px;
   border-radius: 5px;
 }
-
 .main-last {
   text-align: right;
   padding: 30px 150px;
   font-family: "Archivo Black", sans-serif;
   font-size: 18px;
 }
-a {
-  text-decoration: none;
-  color: red;
-}
 
 /* footer section */
 footer {
   width: 100%;
-  height: 200px;
+  height: 210px;
   background-color: rgb(8, 0, 43);
 }
 .foot-h2 {
   text-align: center;
-  font-size: 30px;
-  color: aliceblue;
-  padding-top: 40px;
+  font-size: 35px;
+  color: rgb(253, 4, 4);
+  padding-top: 30px;
 }
+.foot-h5 {
+  color: rgba(255, 255, 241, 0.788);
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+.foot-icon {
+  text-align: center;
+  margin: 0%;
+  color: white;
+}
+/* ---------------------
+End Navigation Header Main-Section Footer 
+-----------------------*/
+
+/* ---------Media Quary-------------- */
